@@ -1,0 +1,28 @@
+{
+  "cwd": "C:\\laragon\\Code\\f7-app",
+  "type": [
+    "capacitor",
+    "web",
+    "pwa"
+  ],
+  "name": "F7 App",
+  "framework": "core",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": true,
+    "color": "#009535",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
